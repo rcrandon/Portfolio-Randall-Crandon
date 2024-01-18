@@ -28,6 +28,40 @@ section, summary, time, mark, audio, video {
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
+/* Change the body background and default text color */
+body {
+	background: #181a1b;
+	color: #181a1b;
+}
+
+/* Change the default link color */
+a {
+	color: #181a1b;
+}
+
+/* Change the default link hover color */
+a:hover {
+	color: #b319b4;
+}
+
+/* Specific styles for the header section */
+#header {
+	background: #181a1b;
+	color: #e8e6e3;
+}
+
+	#header p {
+		color: #bbc7da;
+	}
+
+	#header a {
+		color: #e8e6e3;
+	}
+
+	#header a:hover {
+		color: #b319b4;
+		background: #181a1b;
+	}
 
 body {
 	line-height: 1;
@@ -83,7 +117,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #d1cdc7;
+		background: #181a1b;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -98,7 +132,7 @@ input, select, textarea {
 		}
 
 	body, input, select, textarea {
-		color: #4A0000;
+		color: #e8e6e3;
 		font-family: "Lato", sans-serif;
 		font-size: 16pt;
 		font-weight: 400;
@@ -110,7 +144,7 @@ input, select, textarea {
 		-webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-		border-bottom: solid 1px #4A0000;
+		border-bottom: solid 1px #e8e6e3;
 		color: inherit;
 		text-decoration: none;
 	}
@@ -121,7 +155,7 @@ input, select, textarea {
 		}
 
 	strong, b {
-		color: #4A0000;
+		color: #e8e6e3;
 		font-weight: 700;
 	}
 
@@ -134,7 +168,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #4A0000;
+		color: #e8e6e3;
 		font-weight: 700;
 		line-height: 1em;
 		margin: 0 0 0.5625em 0;
@@ -185,7 +219,7 @@ input, select, textarea {
 
 	hr {
 		border: 0;
-		border-bottom: solid 2px #4A0000;
+		border-bottom: solid 2px #e8e6e3;
 		margin: 2.25em 0;
 	}
 
@@ -194,14 +228,14 @@ input, select, textarea {
 		}
 
 	blockquote {
-		border-left: solid 8px #4A0000;
+		border-left: solid 8px #e8e6e3;
 		font-style: italic;
 		margin: 0 0 2.25em 0;
 		padding: 0.5em 0 0.5em 2em;
 	}
 
 	code {
-		background: #4A0000;
+		background: #e8e6e3;
 		border-radius: 5px;
 		color: #FF00FF;
 		font-family: "Source Code Pro", monospace;
@@ -1785,7 +1819,7 @@ input, select, textarea {
 	}
 
 	header.major h2 {
-		color: #4a0000;
+		color: #e8e6e3;
 		font-size: 3.5em;
 	}
 
@@ -1848,7 +1882,7 @@ input, select, textarea {
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #4a0000;
+			border-color: #e8e6e3;
 		}
 
 	select {
@@ -1863,7 +1897,7 @@ input, select, textarea {
 
 		select option {
 			color: #aa0088;
-			background: #d1cdc7;
+			background: #181a1b;
 		}
 
 		select:focus::-ms-value {
@@ -1928,7 +1962,7 @@ input, select, textarea {
 
 			input[type="checkbox"] + label:before,
 			input[type="radio"] + label:before {
-				background: #d1cdc7;
+				background: #181a1b;
 				border-radius: 5px;
 				border: solid 2px #aa0088;
 				content: '';
@@ -1945,15 +1979,15 @@ input, select, textarea {
 
 		input[type="checkbox"]:checked + label:before,
 		input[type="radio"]:checked + label:before {
-			background: #4a0000;
-			border-color: #4a0000;
-			color: #d1cdc7;
+			background: #e8e6e3;
+			border-color: #e8e6e3;
+			color: #181a1b;
 			content: '\f00c';
 		}
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #4a0000;
+			border-color: #e8e6e3;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -2404,7 +2438,7 @@ input, select, textarea {
 			ul.feature-icons li:before {
 				background: #FF00FF;
 				border-radius: 100%;
-				color: #d1cdc7;
+				color: #181a1b;
 				display: block;
 				height: 2.5em;
 				left: 0;
@@ -2455,7 +2489,7 @@ input, select, textarea {
 		}
 
 			table tbody tr:nth-child(2n + 1) {
-				background-color: #d1cdc7;
+				background-color: #181a1b;
 			}
 
 		table td {
@@ -2521,7 +2555,7 @@ input, select, textarea {
 		background-color: #FF00FF;
 		border-radius: 5px;
 		border: 0;
-		color: #d1cdc7 !important;
+		color: #181a1b !important;
 		cursor: pointer;
 		display: inline-block;
 		font-weight: 700;
@@ -2538,7 +2572,7 @@ input, select, textarea {
 		input[type="button"]:hover,
 		.button:hover {
 			background-color: #C04000;
-			color: #d1cdc7 !important;
+			color: #181a1b !important;
 		}
 
 		input[type="submit"]:active,
@@ -2619,7 +2653,7 @@ input, select, textarea {
 		input[type="button"].primary,
 		.button.primary {
 			background-color: #FF00FF;
-			color: #d1cdc7 !important;
+			color: #181a1b !important;
 		}
 
 			input[type="submit"].primary:hover,
@@ -2645,7 +2679,7 @@ input, select, textarea {
 		.button:disabled {
 			background-color: #888 !important;
 			box-shadow: inset 0 -0.15em 0 0 rgba(0, 0, 0, 0.15);
-			color: #d1cdc7 !important;
+			color: #181a1b !important;
 			cursor: default;
 			opacity: 0.25;
 		}
@@ -2712,11 +2746,11 @@ input, select, textarea {
 	}
 
 		#header h1, #header h2, #header h3, #header h4, #header h5, #header h6 {
-			color: #d1cdc7;
+			color: #181a1b;
 		}
 
 			#header h1 a, #header h2 a, #header h3 a, #header h4 a, #header h5 a, #header h6 a {
-				color: #d1cdc7;
+				color: #181a1b;
 			}
 
 		#header header p {
@@ -2728,7 +2762,7 @@ input, select, textarea {
 		}
 
 			#header a:hover {
-				color: #d1cdc7 !important;
+				color: #181a1b !important;
 			}
 
 		#header > header {
@@ -2800,14 +2834,14 @@ input, select, textarea {
 						-ms-transition: none;
 						transition: none;
 						border: 0;
-						color: #d1cdc7 !important;
+						color: #181a1b !important;
 						display: block;
 						padding: 0.85em 0;
 						text-decoration: none;
 					}
 
 						#header > nav ul li a.active {
-							background: #d1cdc7;
+							background: #181a1b;
 							color: #FF00FF !important;
 						}
 
@@ -2818,14 +2852,14 @@ input, select, textarea {
 /* Wrapper */
 
 	#wrapper {
-		background: #d1cdc7;
+		background: #181a1b;
 		padding-right: 23em;
 	}
 
 /* Main */
 
 	#main > section {
-		border-top: solid 6px #f4f4f4;
+		border-top: solid 6px #2b2a33;
 	}
 
 		#main > section > .container {
@@ -2839,7 +2873,7 @@ input, select, textarea {
 /* Footer */
 
 	#footer {
-		background: #d1cdc7;
+		background: #181a1b;
 		border-top: 0;
 		color: #c0c0c0;
 		overflow: hidden;
