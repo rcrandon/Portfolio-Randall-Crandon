@@ -2758,11 +2758,11 @@ input, select, textarea {
 		}
 
 		#header a {
-			color: #d2f2e9;
+			color: #181a1b;
 		}
 
 			#header a:hover {
-				color: #181a1b !important;
+				color: #d2f2e9 !important;
 			}
 
 		#header > header {
